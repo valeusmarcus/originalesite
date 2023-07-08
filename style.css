@@ -1,0 +1,288 @@
+*, *::before,*::after {
+    box-sizing: border-box;
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: rgba(15, 15, 15, 0.3);
+    line-height: 1.5em;
+}
+/*-------------------tete menu--------------*/
+#icon1 {
+    width: 23px;
+    height: 23px;
+    margin: 0 50px;
+}
+
+a {
+    color: inherit;
+}
+
+.topbar {
+    background: rgb(122, 122, 235);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    width: 100%;
+    position: fixed;
+    z-index: 50;
+
+}
+
+.topbar-logo {
+  font-size: 25px;  
+  text-transform: capitalize;
+  color: rgb(8, 250, 68);
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+span {
+    color: rgb(15, 15, 15);
+    font-weight: bold;
+}
+
+
+.topbar-nav  {
+    font-size: 20px;
+
+}
+
+
+.topbar-nav a {
+    margin: 0 16px;
+    font-weight: bold;
+
+}
+
+
+.topbar-nav a:hover {
+    color: rgb(250, 253, 251);
+    transition: color 1s ;
+    font-weight: 900;
+    background-color: rgba(0, 0, 0, 0.329);
+    border-radius: 20px;
+
+}
+
+
+.topbar-nav a.active{
+ border: solid 1px rgb(7, 218, 35);
+ padding: 9px;
+ border-radius: 20px;
+ 
+
+}
+
+.menu-hambeger {
+    display: none;
+}
+
+
+
+@media only screen and (max-width: 808px) {
+    .topbar-nav {
+        display: none;
+    }
+
+    .menu-hambeger {
+        display: block;
+        width: 27px;
+        height: 27px;
+
+    }
+
+    
+
+    
+.card-post img {
+    width: auto;
+    padding: 0 20px;
+    height: 250px ;
+}
+
+
+  
+
+    .topbar-nav {
+        display: block;
+        position: absolute;
+        right: 0;
+        top: 75px;
+        width: 100%;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.945);
+        margin-top:-200%;
+        transition: all 1s ease;
+        z-index: 20;
+        
+    }
+
+    .topbar-nav.mobil-menu {
+        margin-top:0;
+        z-index: 20;
+    }
+
+    .topbar-nav a {
+        display: block;
+        text-align: center;
+        padding: 40px;
+        font-size: 22px;
+        color: antiquewhite;
+    }
+
+    .topbar-nav a.active {
+        border: none;
+        font-size: 24px;
+        font-weight: bold;
+        padding-bottom: 30px;
+        color: rgb(16, 221, 33);
+        padding-top: 60px;
+        
+    }
+
+  
+.fin-web {
+    width:100% ;
+}
+
+}
+
+
+
+/*----------------fin tete menu ..........*/
+.container {
+    padding:  82px 20px;
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 401px ) {
+   .container {
+    padding: 100px 5px 10px 10px;
+    max-width: 350px;
+    
+   } 
+
+ 
+
+   .fin-web {
+    min-width: 300px;
+    flex-wrap: wrap;
+   }
+   .topbar {
+    width: 100%;
+  
+   }
+}
+
+.card {
+    background-color: azure;
+}
+
+.card-header {
+    background-color: rgb(235, 236, 238);
+    position: relative;
+    padding-left: 70px;
+    line-height: 2em;
+    z-index: 0;
+}
+
+.card-avatar {
+    padding:  0 5px;
+    position: absolute;
+    top: 7px;
+    left: 12px;
+    border-radius: 50px;
+    padding-left: 5px;
+    border: solid 1px   rgb(31, 6, 252);
+
+}
+
+.card-title {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.card-post img {
+    width: 100%;
+    padding: 0 20px;
+    max-height: 600px;
+}
+
+h2 {
+    padding: 0 20px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+h4 {
+    font-size: 17px;
+    padding: 10px 20px;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 2.1rem;
+    font-style: italic;
+    text-decoration-style: wavy;
+    color: rgba(29, 28, 28, 0.986);
+}
+
+.footer {
+    background: blue;
+    height: 20px;
+}
+
+.fin-web {
+    background: rgba(7, 58, 226, 0.459);
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    font-style: oblique;
+   
+}
+
+.fin-web p {
+    padding:0 20px;
+}
+
+.fin-web a {
+    color: brown;
+}
+
+.btn2 {
+    background: rgb(41, 4, 250);
+    padding: 0.40rem;
+    color: rgb(8, 8, 8);
+    border-radius: 50px;
+    margin: 0 20px;
+    font-weight: bold;
+}
+
+.btn2:hover {
+    background: rgb(250, 5, 189);
+    transition: all 0.60s ease;
+
+}
+
+.img-base {
+    max-width:550px;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
